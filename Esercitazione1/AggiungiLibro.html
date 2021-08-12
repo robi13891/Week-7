@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Aggiungi Libro
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <table border="1">
+        <tbody>
+            <tr>
+                <header class="header_style">
+                    <img src="Logo.png" class="logo" />
+                    <h1>AGGIUNGI LIBRO</h1>
+                </header>
+
+            </tr>
+            <tr>
+                <td>
+                    <nav class="navigator">
+                        <ul>
+                            <li><a href="HomePage.html" class="navbar">HomePage</a></li>
+                            <li><a href="AggiungiLibro.html" class="navbar">Aggiungi Libro</a></li>
+                        </ul>
+                    </nav>
+                </td>
+                <td>
+                    <form>
+                        <table border="1">
+                            <tr class="table_form">
+                                <div>
+                                <td>
+                                    <label for="Codice ISBN">Codice ISBN</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="Codice ISBN" id="Codice ISBN" placeholder="Inserisci Codice ISBN" />
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table_form">
+                                <div>
+                                <td>
+                                    <label for="Titolo">Titolo</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="Titolo" id="Titolo" placeholder="Inserisci Titolo" />
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table_form">
+                                <div>
+                                <td><label for="Autore">Autore</label></td>
+                                <td><input type="text" name="Autore" id="Autore" placeholder="Inserisci Autore" /></td>
+                                </div>
+                            </tr>
+                            <tr class="table_form">
+                                <div>
+                                <td><label for="dataUscita">Data di Uscita</label></td>
+                                <td><input type="date" name="dataUscita" id="dataUscita" /></td>
+
+                                </div>
+                            </tr>
+                            <tr class="table_form">
+                                <div>
+                                <td><label for="Categoria">Categoria</label></td>
+                                <td>
+                                    <select name="Categoria">
+                                        <option value="">-- Scegli un tipo --</option>
+                                        <option value="narrativa">Narrativa</option>
+                                        <option value="saggistica">Saggistica</option>
+                                        <option value="horror">Horror</option>
+                                        <option value="bambini">Bambini</option>
+                                    </select>
+                                </td>
+
+                                </div>
+                            </tr>
+                            <tr class="table_form">
+                                <div>
+                                <td colspan="2">
+                                    <input type="checkbox" id="disponibile" name="disponibile" value="disponibile"
+                                           checked>
+                                
+                                <label for="disponibile">Disponibile</label></td>
+                                
+                                </div>
+                            </tr>
+                            
+                            <tr class="table_form">
+                                <div>
+                                    <td><label for="recensione">Recensione</label></td>
+                                    <td><textarea name="recensione"></textarea></td>
+                                    
+                                </div>
+                            </tr>
+                            <tr><td colspan="2" align="center"><input type="submit" value="Crea Libro" /></td></tr>
+                        </table>
+                        
+
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <footer class="footer_style">
+                        &copy; Registered Mark
+                    </footer>
+                    </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+

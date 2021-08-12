@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Libeccio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="funzioni.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><h1> Menu</h1> </div>
+        </div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row">
+            <div class="col-12" align="center"><i>Primi Piatti</i></div>
+
+        </div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row">
+            <div class="col-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <input type="checkbox" name="piatto" value="13" />
+            </div>
+            <div class="col-4">Spaghetti alle vongole</div>
+            <div class="col-4">Spaghetti di semola di grano duro fatti a mano con vongole veraci del Pacifico</div>
+            <div class="col-2">13</div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <input type="checkbox" name="piatto" value="15" />
+            </div>
+            <div class="col-4">Linguine allo Scoglio</div>
+            <div class="col-4">Linguine integrali con cozze, vongole, gamberi e pomodorini confit</div>
+            <div class="col-2">15</div>
+        </div>
+        <div class="row">
+            <div class="col-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-12" align="center"><i>Secondi Piatti</i></div>
+        </div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row">
+            <div class="col-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <input type="checkbox" name="piatto" value="22" />
+            </div>
+            <div class="col-4">Grigliata Mista Libeccio</div>
+            <div class="col-4">Pescato del giorno grigliato con citronette di agrumi di Sicilia</div>
+            <div class="col-2">22</div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <input type="checkbox" name="piatto" value="18" />
+            </div>
+            <div class="col-4">Frittura Mista</div>
+            <div class="col-4">Frittura di Totani e Gamberi con pastella leggera al profumo di rosmarino</div>
+            <div class="col-2">18</div>
+        </div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+
+        <div class="row">
+            <div class="col-5">
+
+            </div>
+            <div class="col-2">
+                <div onclick="javascript:selezionaPiatti()"
+                     class="btn btn-success">Ordina!</div>
+            </div>
+            <div class="col-5">
+
+            </div>
+        </div>
+
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row">
+            <div class="col-6"><b>Totale ordine</b></div>
+
+            <div class="col-6">
+                <span class="contoOrdine" id="contoOrdine"></span>
+            </div>
+        </div>
+
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+
+        <div class="row">
+
+            <div class="col-3"><a href="Home.html">Home</a></div>
+            <div class="col-3"><a href="Menu.html">Menu</a></div>
+            <div class="col-3"><a href="PaginaPrenotazione.html">Prenota</a></div>
+            <div class="col-3"><a href="PaginaContatto.html">Contatti</a></div>
+        </div>
+
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row"> <div class="col-12">&nbsp;</div></div>
+        <div class="row">
+            <div class="col-12" align="right">&copy; Ristorante Libeccio</div>
+        </div>
+    </div>
+</body>
+</html>

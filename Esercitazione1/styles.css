@@ -1,0 +1,57 @@
+body{
+    background-color:lightgoldenrodyellow;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    width: 40px;
+    float: left;
+}
+
+.header_style {
+    background-color: lightgray;
+}
+
+.navbar {    
+    text-decoration: none;
+    
+}
+
+.navbar:link{
+    color: black;
+    
+}
+ 
+.navbar:visited{
+    color:black;
+}
+
+.navbar:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+ 
+.table_form{
+
+}
+.table_form:hover{
+    background-color:yellow;
+}
+
+.navigator{
+    width: 200px;
+}
+
+.footer_style{
+    float:right;
+    
+}
+
+.main_style{
+    
+    text-align:center;
+    width: 300px;
+}
